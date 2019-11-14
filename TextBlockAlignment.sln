@@ -11,11 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlockAlignment.iOS", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlockAlignment.UWP", "TextBlockAlignment\TextBlockAlignment.UWP\TextBlockAlignment.UWP.csproj", "{269F093D-DEDB-41D4-A7B7-9FC273F08223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlockAlignment.Wasm", "TextBlockAlignment\TextBlockAlignment.Wasm\TextBlockAlignment.Wasm.csproj", "{36459CF1-078D-4DA4-A4D0-AF6D1CEF386A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextBlockAlignment.Wasm", "TextBlockAlignment\TextBlockAlignment.Wasm\TextBlockAlignment.Wasm.csproj", "{36459CF1-078D-4DA4-A4D0-AF6D1CEF386A}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TextBlockAlignment\TextBlockAlignment.Shared\TextBlockAlignment.Shared.projitems*{269f093d-dedb-41d4-a7b7-9fc273f08223}*SharedItemsImports = 4
+		TextBlockAlignment\TextBlockAlignment.Shared\TextBlockAlignment.Shared.projitems*{3994fa0e-40f9-4909-a99a-26a97336306a}*SharedItemsImports = 4
 		TextBlockAlignment\TextBlockAlignment.Shared\TextBlockAlignment.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		TextBlockAlignment\TextBlockAlignment.Shared\TextBlockAlignment.Shared.projitems*{aa564b58-6724-4358-a952-7a7d68b83ea6}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
